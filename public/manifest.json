@@ -1,0 +1,9 @@
+{
+  "name": "Vibeoke",
+  "short_name": "Vibeoke",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a12",
+  "theme_color": "#11131f",
+  "description": "Local karaoke queue and YouTube player"
+}

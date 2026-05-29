@@ -1,0 +1,5682 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-28",
+  "search_fields": [
+    "title",
+    "artist",
+    "genre",
+    "language",
+    "tags"
+  ],
+  "songs": [
+    {
+      "id": "song-baby-one-more-time-britney-spears",
+      "title": "...Baby One More Time",
+      "artist": "Britney Spears",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-214-rivermaya",
+      "title": "214",
+      "artist": "Rivermaya",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-a-thousand-miles-vanessa-carlton",
+      "title": "A Thousand Miles",
+      "artist": "Vanessa Carlton",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "piano",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-a-thousand-years-christina-perri",
+      "title": "A Thousand Years",
+      "artist": "Christina Perri",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "wedding",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-a-whole-new-world-lea-salonga-and-brad-kane",
+      "title": "A Whole New World",
+      "artist": "Lea Salonga & Brad Kane",
+      "genre": "musical",
+      "language": "english",
+      "tags": [
+        "duet",
+        "disney",
+        "musical"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-africa-toto",
+      "title": "Africa",
+      "artist": "Toto",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "classic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-akin-ka-na-lang-the-itchyworms",
+      "title": "Akin Ka Na Lang",
+      "artist": "The Itchyworms",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-alapaap-eraserheads",
+      "title": "Alapaap",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-all-of-me-john-legend",
+      "title": "All of Me",
+      "artist": "John Legend",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "wedding",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-always-bon-jovi",
+      "title": "Always",
+      "artist": "Bon Jovi",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-always-be-my-baby-mariah-carey",
+      "title": "Always Be My Baby",
+      "artist": "Mariah Carey",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-always-on-my-mind-elvis-presley",
+      "title": "Always on My Mind",
+      "artist": "Elvis Presley",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-always-remember-us-this-way-lady-gaga",
+      "title": "Always Remember Us This Way",
+      "artist": "Lady Gaga",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "movie",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-ang-huling-el-bimbo-eraserheads",
+      "title": "Ang Huling El Bimbo",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-anti-hero-taylor-swift",
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-antukin-rico-blanco",
+      "title": "Antukin",
+      "artist": "Rico Blanco",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-apologize-onerepublic",
+      "title": "Apologize",
+      "artist": "OneRepublic",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-araw-gabi-regine-velasquez",
+      "title": "Araw Gabi",
+      "artist": "Regine Velasquez",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-araw-araw-benandben",
+      "title": "Araw-Araw",
+      "artist": "Ben&Ben",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "folk",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-as-it-was-harry-styles",
+      "title": "As It Was",
+      "artist": "Harry Styles",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-as-long-as-you-love-me-backstreet-boys",
+      "title": "As Long As You Love Me",
+      "artist": "Backstreet Boys",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "boy band",
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-back-in-black-ac-dc",
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-back-to-black-amy-winehouse",
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "soul",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bad-michael-jackson",
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bad-habits-ed-sheeran",
+      "title": "Bad Habits",
+      "artist": "Ed Sheeran",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-bad-romance-lady-gaga",
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bakit-ngayon-ka-lang-ogie-alcasid-and-regine-velasquez",
+      "title": "Bakit Ngayon Ka Lang",
+      "artist": "Ogie Alcasid & Regine Velasquez",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-bakit-part-2-mayonnaise",
+      "title": "Bakit Part 2",
+      "artist": "Mayonnaise",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-basang-basa-sa-ulan-aegis",
+      "title": "Basang-Basa Sa Ulan",
+      "artist": "Aegis",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-batang-bata-ka-pa-apo-hiking-society",
+      "title": "Batang-Bata Ka Pa",
+      "artist": "APO Hiking Society",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-beat-it-michael-jackson",
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "rock",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-beautiful-christina-aguilera",
+      "title": "Beautiful",
+      "artist": "Christina Aguilera",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "inspirational",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-because-of-you-kelly-clarkson",
+      "title": "Because of You",
+      "artist": "Kelly Clarkson",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-because-you-loved-me-celine-dion",
+      "title": "Because You Loved Me",
+      "artist": "Celine Dion",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-beer-the-itchyworms",
+      "title": "Beer",
+      "artist": "The Itchyworms",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-before-he-cheats-carrie-underwood",
+      "title": "Before He Cheats",
+      "artist": "Carrie Underwood",
+      "genre": "country",
+      "language": "english",
+      "tags": [
+        "party",
+        "country"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-before-i-let-you-go-freestyle",
+      "title": "Before I Let You Go",
+      "artist": "Freestyle",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-billie-jean-michael-jackson",
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-binibini-zack-tabudlo",
+      "title": "Binibini",
+      "artist": "Zack Tabudlo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-bitiw-sponge-cola",
+      "title": "Bitiw",
+      "artist": "Sponge Cola",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-blank-space-taylor-swift",
+      "title": "Blank Space",
+      "artist": "Taylor Swift",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bleeding-love-leona-lewis",
+      "title": "Bleeding Love",
+      "artist": "Leona Lewis",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-blinding-lights-the-weeknd",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "synthpop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-blue-sky-hale",
+      "title": "Blue Sky",
+      "artist": "Hale",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bohemian-rhapsody-queen",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-born-for-you-david-pomeranz",
+      "title": "Born for You",
+      "artist": "David Pomeranz",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-borrowed-time-cueshe",
+      "title": "Borrowed Time",
+      "artist": "Cueshe",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-breakaway-kelly-clarkson",
+      "title": "Breakaway",
+      "artist": "Kelly Clarkson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-brown-eyed-girl-van-morrison",
+      "title": "Brown Eyed Girl",
+      "artist": "Van Morrison",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "party",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-build-me-up-buttercup-the-foundations",
+      "title": "Build Me Up Buttercup",
+      "artist": "The Foundations",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "party",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-bulong-december-avenue",
+      "title": "Bulong",
+      "artist": "December Avenue",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-burnout-sugarfree",
+      "title": "Burnout",
+      "artist": "Sugarfree",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-buwan-juan-karlos",
+      "title": "Buwan",
+      "artist": "Juan Karlos",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-bye-bye-bye-nsync",
+      "title": "Bye Bye Bye",
+      "artist": "NSYNC",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "boy band",
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-california-gurls-katy-perry",
+      "title": "California Gurls",
+      "artist": "Katy Perry",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-can-t-help-falling-in-love-elvis-presley",
+      "title": "Can't Help Falling in Love",
+      "artist": "Elvis Presley",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "wedding",
+        "love song",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-can-t-stop-the-feeling-justin-timberlake",
+      "title": "Can't Stop the Feeling",
+      "artist": "Justin Timberlake",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-can-t-take-my-eyes-off-you-frankie-valli",
+      "title": "Can't Take My Eyes Off You",
+      "artist": "Frankie Valli",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "party",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-careless-whisper-george-michael",
+      "title": "Careless Whisper",
+      "artist": "George Michael",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-champagne-supernova-oasis",
+      "title": "Champagne Supernova",
+      "artist": "Oasis",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "britpop",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-change-the-world-eric-clapton",
+      "title": "Change the World",
+      "artist": "Eric Clapton",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-chasing-cars-snow-patrol",
+      "title": "Chasing Cars",
+      "artist": "Snow Patrol",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-chinito-yeng-constantino",
+      "title": "Chinito",
+      "artist": "Yeng Constantino",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-come-as-you-are-nirvana",
+      "title": "Come As You Are",
+      "artist": "Nirvana",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "grunge",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-come-inside-of-my-heart-iv-of-spades",
+      "title": "Come Inside of My Heart",
+      "artist": "IV of Spades",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "indie",
+        "filipino",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-complicated-avril-lavigne",
+      "title": "Complicated",
+      "artist": "Avril Lavigne",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "pop rock",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-counting-stars-onerepublic",
+      "title": "Counting Stars",
+      "artist": "OneRepublic",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "band",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-creep-radiohead",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-cry-me-a-river-justin-timberlake",
+      "title": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-dadalhin-regine-velasquez",
+      "title": "Dadalhin",
+      "artist": "Regine Velasquez",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-dahan-december-avenue",
+      "title": "Dahan",
+      "artist": "December Avenue",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-dahil-tanging-ikaw-jaya",
+      "title": "Dahil Tanging Ikaw",
+      "artist": "Jaya",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-dance-the-night-dua-lipa",
+      "title": "Dance The Night",
+      "artist": "Dua Lipa",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "movie",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-dance-with-you-skusta-clee-ft-yuri-dope",
+      "title": "Dance With You",
+      "artist": "Skusta Clee ft. Yuri Dope",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rap",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-dancing-queen-abba",
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-dark-horse-katy-perry",
+      "title": "Dark Horse",
+      "artist": "Katy Perry",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-demonyo-juan-karlos",
+      "title": "Demonyo",
+      "artist": "Juan Karlos",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-di-bale-na-lang-gary-valenciano",
+      "title": "Di Bale Na Lang",
+      "artist": "Gary Valenciano",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "dance",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-di-na-muli-the-itchyworms",
+      "title": "Di Na Muli",
+      "artist": "The Itchyworms",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-diamonds-rihanna",
+      "title": "Diamonds",
+      "artist": "Rihanna",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-die-for-you-the-weeknd",
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "genre": "r&b",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "r&b"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-don-t-start-now-dua-lipa",
+      "title": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-don-t-stop-believin-journey",
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-don-t-stop-me-now-queen",
+      "title": "Don't Stop Me Now",
+      "artist": "Queen",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "party",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-dream-on-aerosmith",
+      "title": "Dream On",
+      "artist": "Aerosmith",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-dreams-the-cranberries",
+      "title": "Dreams",
+      "artist": "The Cranberries",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-drivers-license-olivia-rodrigo",
+      "title": "Drivers License",
+      "artist": "Olivia Rodrigo",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "modern pop",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-easy-on-me-adele",
+      "title": "Easy on Me",
+      "artist": "Adele",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-elesi-rivermaya",
+      "title": "Elesi",
+      "artist": "Rivermaya",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-endless-love-lionel-richie-and-diana-ross",
+      "title": "Endless Love",
+      "artist": "Lionel Richie & Diana Ross",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "duet",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-enter-sandman-metallica",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "metal",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ere-juan-karlos",
+      "title": "Ere",
+      "artist": "Juan Karlos",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-every-breath-you-take-the-police",
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-everybody-backstreet-boys",
+      "title": "Everybody",
+      "artist": "Backstreet Boys",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "boy band",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-everything-i-do-bryan-adams",
+      "title": "Everything I Do",
+      "artist": "Bryan Adams",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "movie",
+        "wedding",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ewan-apo-hiking-society",
+      "title": "Ewan",
+      "artist": "APO Hiking Society",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-exchange-of-hearts-david-slater",
+      "title": "Exchange of Hearts",
+      "artist": "David Slater",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-eyes-closed-ed-sheeran",
+      "title": "Eyes Closed",
+      "artist": "Ed Sheeran",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-fallen-lola-amour",
+      "title": "Fallen",
+      "artist": "Lola Amour",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-fighter-christina-aguilera",
+      "title": "Fighter",
+      "artist": "Christina Aguilera",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-firework-katy-perry",
+      "title": "Firework",
+      "artist": "Katy Perry",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-fix-you-coldplay",
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "band",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-flowers-miley-cyrus",
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-fly-me-to-the-moon-frank-sinatra",
+      "title": "Fly Me to the Moon",
+      "artist": "Frank Sinatra",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "jazz",
+        "standards",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-forever-s-not-enough-sarah-geronimo",
+      "title": "Forever's Not Enough",
+      "artist": "Sarah Geronimo",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-forevermore-side-a",
+      "title": "Forevermore",
+      "artist": "Side A",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-free-fallin-tom-petty",
+      "title": "Free Fallin'",
+      "artist": "Tom Petty",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-gemini-sponge-cola",
+      "title": "Gemini",
+      "artist": "Sponge Cola",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-genie-in-a-bottle-christina-aguilera",
+      "title": "Genie in a Bottle",
+      "artist": "Christina Aguilera",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-get-lucky-daft-punk-ft-pharrell-williams",
+      "title": "Get Lucky",
+      "artist": "Daft Punk ft. Pharrell Williams",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "funk",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-girls-just-want-to-have-fun-cyndi-lauper",
+      "title": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-gitara-parokya-ni-edgar",
+      "title": "Gitara",
+      "artist": "Parokya ni Edgar",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-give-me-your-forever-zack-tabudlo",
+      "title": "Give Me Your Forever",
+      "artist": "Zack Tabudlo",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-good-4-u-olivia-rodrigo",
+      "title": "Good 4 U",
+      "artist": "Olivia Rodrigo",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "pop rock",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-got-to-believe-in-magic-david-pomeranz",
+      "title": "Got to Believe in Magic",
+      "artist": "David Pomeranz",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-greatest-love-of-all-whitney-houston",
+      "title": "Greatest Love of All",
+      "artist": "Whitney Houston",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "classic",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-grenade-bruno-mars",
+      "title": "Grenade",
+      "artist": "Bruno Mars",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-habang-buhay-zack-tabudlo",
+      "title": "Habang Buhay",
+      "artist": "Zack Tabudlo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-habang-may-buhay-afterimage",
+      "title": "Habang May Buhay",
+      "artist": "AfterImage",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-halik-aegis",
+      "title": "Halik",
+      "artist": "Aegis",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hallelujah-bamboo",
+      "title": "Hallelujah",
+      "artist": "Bamboo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-halo-beyonce",
+      "title": "Halo",
+      "artist": "Beyonce",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hanggang-wency-cornejo",
+      "title": "Hanggang",
+      "artist": "Wency Cornejo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hanggang-kailan-orange-and-lemons",
+      "title": "Hanggang Kailan",
+      "artist": "Orange & Lemons",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-happy-pharrell-williams",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-harana-parokya-ni-edgar",
+      "title": "Harana",
+      "artist": "Parokya ni Edgar",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "acoustic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hari-ng-sablay-sugarfree",
+      "title": "Hari Ng Sablay",
+      "artist": "Sugarfree",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-havana-camila-cabello",
+      "title": "Havana",
+      "artist": "Camila Cabello",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "latin",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-have-you-ever-seen-the-rain-creedence-clearwater-revival",
+      "title": "Have You Ever Seen the Rain",
+      "artist": "Creedence Clearwater Revival",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-hawak-kamay-yeng-constantino",
+      "title": "Hawak Kamay",
+      "artist": "Yeng Constantino",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "inspirational",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-hazard-richard-marx",
+      "title": "Hazard",
+      "artist": "Richard Marx",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-heaven-bryan-adams",
+      "title": "Heaven",
+      "artist": "Bryan Adams",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-hello-adele",
+      "title": "Hello",
+      "artist": "Adele",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hello-lionel-richie",
+      "title": "Hello",
+      "artist": "Lionel Richie",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-here-without-you-3-doors-down",
+      "title": "Here Without You",
+      "artist": "3 Doors Down",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hero-mariah-carey",
+      "title": "Hero",
+      "artist": "Mariah Carey",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hey-jude-the-beatles",
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "singalong",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-highway-to-hell-ac-dc",
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-himala-rivermaya",
+      "title": "Himala",
+      "artist": "Rivermaya",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-hips-don-t-lie-shakira-ft-wyclef-jean",
+      "title": "Hips Don't Lie",
+      "artist": "Shakira ft. Wyclef Jean",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "latin",
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-hold-on-side-a",
+      "title": "Hold On",
+      "artist": "Side A",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-hotel-california-eagles",
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-how-deep-is-your-love-bee-gees",
+      "title": "How Deep Is Your Love",
+      "artist": "Bee Gees",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-huling-sandali-december-avenue",
+      "title": "Huling Sandali",
+      "artist": "December Avenue",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-huling-sayaw-kamikazee-ft-kyla",
+      "title": "Huling Sayaw",
+      "artist": "Kamikazee ft. Kyla",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-huwag-na-huwag-mong-sasabihin-kitchie-nadal",
+      "title": "Huwag Na Huwag Mong Sasabihin",
+      "artist": "Kitchie Nadal",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-i-don-t-want-to-miss-a-thing-aerosmith",
+      "title": "I Don't Want to Miss a Thing",
+      "artist": "Aerosmith",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "movie",
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-i-have-nothing-whitney-houston",
+      "title": "I Have Nothing",
+      "artist": "Whitney Houston",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-i-wanna-dance-with-somebody-whitney-houston",
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-i-want-it-that-way-backstreet-boys",
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "boy band",
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-i-will-always-love-you-whitney-houston",
+      "title": "I Will Always Love You",
+      "artist": "Whitney Houston",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-i-will-survive-gloria-gaynor",
+      "title": "I Will Survive",
+      "artist": "Gloria Gaynor",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-i-m-a-believer-the-monkees",
+      "title": "I'm a Believer",
+      "artist": "The Monkees",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "party",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-i-m-yours-jason-mraz",
+      "title": "I'm Yours",
+      "artist": "Jason Mraz",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "acoustic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-if-i-ain-t-got-you-alicia-keys",
+      "title": "If I Ain't Got You",
+      "artist": "Alicia Keys",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "soul",
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-if-you-had-my-love-jennifer-lopez",
+      "title": "If You Had My Love",
+      "artist": "Jennifer Lopez",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ikaw-yeng-constantino",
+      "title": "Ikaw",
+      "artist": "Yeng Constantino",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ikaw-at-ako-moira-dela-torre-and-jason-marvin",
+      "title": "Ikaw at Ako",
+      "artist": "Moira Dela Torre & Jason Marvin",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-ikaw-lamang-silent-sanctuary",
+      "title": "Ikaw Lamang",
+      "artist": "Silent Sanctuary",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-imagine-john-lennon",
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-imahe-magnus-haven",
+      "title": "Imahe",
+      "artist": "Magnus Haven",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-iris-goo-goo-dolls",
+      "title": "Iris",
+      "artist": "Goo Goo Dolls",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-ironic-alanis-morissette",
+      "title": "Ironic",
+      "artist": "Alanis Morissette",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "90s",
+        "alternative",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-isa-lang-arthur-nery",
+      "title": "Isa Lang",
+      "artist": "Arthur Nery",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-islands-in-the-stream-kenny-rogers-and-dolly-parton",
+      "title": "Islands in the Stream",
+      "artist": "Kenny Rogers & Dolly Parton",
+      "genre": "country",
+      "language": "english",
+      "tags": [
+        "duet",
+        "country"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-jar-of-hearts-christina-perri",
+      "title": "Jar of Hearts",
+      "artist": "Christina Perri",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-jeepney-sponge-cola",
+      "title": "Jeepney",
+      "artist": "Sponge Cola",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-jenny-from-the-block-jennifer-lopez",
+      "title": "Jenny from the Block",
+      "artist": "Jennifer Lopez",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-jopay-mayonnaise",
+      "title": "Jopay",
+      "artist": "Mayonnaise",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-just-give-me-a-reason-pink-ft-nate-ruess",
+      "title": "Just Give Me a Reason",
+      "artist": "Pink ft. Nate Ruess",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "duet",
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-just-the-way-you-are-bruno-mars",
+      "title": "Just the Way You Are",
+      "artist": "Bruno Mars",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "love song",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kahit-kailan-south-border",
+      "title": "Kahit Kailan",
+      "artist": "South Border",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kahit-maputi-na-ang-buhok-ko-rey-valera",
+      "title": "Kahit Maputi Na Ang Buhok Ko",
+      "artist": "Rey Valera",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kailangan-kita-gary-valenciano",
+      "title": "Kailangan Kita",
+      "artist": "Gary Valenciano",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-kathang-isip-benandben",
+      "title": "Kathang Isip",
+      "artist": "Ben&Ben",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "folk",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-killing-me-softly-fugees",
+      "title": "Killing Me Softly",
+      "artist": "Fugees",
+      "genre": "r&b",
+      "language": "english",
+      "tags": [
+        "soul",
+        "r&b"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-king-and-queen-of-hearts-david-pomeranz",
+      "title": "King and Queen of Hearts",
+      "artist": "David Pomeranz",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-kisapmata-rivermaya",
+      "title": "Kisapmata",
+      "artist": "Rivermaya",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kiss-me-sixpence-none-the-richer",
+      "title": "Kiss Me",
+      "artist": "Sixpence None the Richer",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "90s",
+        "acoustic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-kundiman-silent-sanctuary",
+      "title": "Kundiman",
+      "artist": "Silent Sanctuary",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kung-di-rin-lang-ikaw-december-avenue-ft-moira",
+      "title": "Kung Di Rin Lang Ikaw",
+      "artist": "December Avenue ft. Moira",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kung-kailangan-mo-ako-rey-valera",
+      "title": "Kung Kailangan Mo Ako",
+      "artist": "Rey Valera",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-kung-tayo-skusta-clee",
+      "title": "Kung Tayo",
+      "artist": "Skusta Clee",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rap",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-kung-wala-ka-hale",
+      "title": "Kung Wala Ka",
+      "artist": "Hale",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-leaves-benandben",
+      "title": "Leaves",
+      "artist": "Ben&Ben",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "folk",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-let-her-go-passenger",
+      "title": "Let Her Go",
+      "artist": "Passenger",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "acoustic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-let-it-be-the-beatles",
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "rock",
+        "piano",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-let-it-go-idina-menzel",
+      "title": "Let It Go",
+      "artist": "Idina Menzel",
+      "genre": "musical",
+      "language": "english",
+      "tags": [
+        "disney",
+        "movie",
+        "musical"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-levitating-dua-lipa",
+      "title": "Levitating",
+      "artist": "Dua Lipa",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ligaya-eraserheads",
+      "title": "Ligaya",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-like-a-prayer-madonna",
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-linger-the-cranberries",
+      "title": "Linger",
+      "artist": "The Cranberries",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-listen-beyonce",
+      "title": "Listen",
+      "artist": "Beyonce",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "movie",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-livin-on-a-prayer-bon-jovi",
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-locked-out-of-heaven-bruno-mars",
+      "title": "Locked Out of Heaven",
+      "artist": "Bruno Mars",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-love-moves-in-mysterious-ways-nina",
+      "title": "Love Moves in Mysterious Ways",
+      "artist": "Nina",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-love-on-top-beyonce",
+      "title": "Love on Top",
+      "artist": "Beyonce",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-love-story-taylor-swift",
+      "title": "Love Story",
+      "artist": "Taylor Swift",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "country pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-love-yourself-justin-bieber",
+      "title": "Love Yourself",
+      "artist": "Justin Bieber",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "acoustic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-lucky-jason-mraz-ft-colbie-caillat",
+      "title": "Lucky",
+      "artist": "Jason Mraz ft. Colbie Caillat",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "duet",
+        "acoustic",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-luha-aegis",
+      "title": "Luha",
+      "artist": "Aegis",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-magasin-eraserheads",
+      "title": "Magasin",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-maging-sino-ka-man-rey-valera",
+      "title": "Maging Sino Ka Man",
+      "artist": "Rey Valera",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-mahika-adie-and-janine-berdin",
+      "title": "Mahika",
+      "artist": "Adie & Janine Berdin",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-makita-kang-muli-sugarfree",
+      "title": "Makita Kang Muli",
+      "artist": "Sugarfree",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-malaya-moira-dela-torre",
+      "title": "Malaya",
+      "artist": "Moira Dela Torre",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-mamma-mia-abba",
+      "title": "Mamma Mia",
+      "artist": "ABBA",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-man-in-the-mirror-michael-jackson",
+      "title": "Man in the Mirror",
+      "artist": "Michael Jackson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-material-girl-madonna",
+      "title": "Material Girl",
+      "artist": "Madonna",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-maybe-the-night-benandben",
+      "title": "Maybe the Night",
+      "artist": "Ben&Ben",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "folk",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-maybe-this-time-michael-martin-murphey",
+      "title": "Maybe This Time",
+      "artist": "Michael Martin Murphey",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-migraine-moonstar88",
+      "title": "Migraine",
+      "artist": "Moonstar88",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-mirrors-justin-timberlake",
+      "title": "Mirrors",
+      "artist": "Justin Timberlake",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-mmmbop-hanson",
+      "title": "MMMBop",
+      "artist": "Hanson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-more-than-a-woman-bee-gees",
+      "title": "More Than a Woman",
+      "artist": "Bee Gees",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-more-than-words-extreme",
+      "title": "More Than Words",
+      "artist": "Extreme",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "acoustic",
+        "ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-mr-brightside-the-killers",
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "party",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-mundo-iv-of-spades",
+      "title": "Mundo",
+      "artist": "IV of Spades",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-my-heart-will-go-on-celine-dion",
+      "title": "My Heart Will Go On",
+      "artist": "Celine Dion",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "movie",
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-my-way-frank-sinatra",
+      "title": "My Way",
+      "artist": "Frank Sinatra",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "standards",
+        "oldies",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-naaalala-ka-rey-valera",
+      "title": "Naaalala Ka",
+      "artist": "Rey Valera",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-narda-kamikazee",
+      "title": "Narda",
+      "artist": "Kamikazee",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-need-you-now-lady-a",
+      "title": "Need You Now",
+      "artist": "Lady A",
+      "genre": "country",
+      "language": "english",
+      "tags": [
+        "duet",
+        "country"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-never-be-the-same-camila-cabello",
+      "title": "Never Be the Same",
+      "artist": "Camila Cabello",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-never-gonna-give-you-up-rick-astley",
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-new-rules-dua-lipa",
+      "title": "New Rules",
+      "artist": "Dua Lipa",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-new-york-new-york-frank-sinatra",
+      "title": "New York, New York",
+      "artist": "Frank Sinatra",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "standards",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-next-in-line-afterimage",
+      "title": "Next in Line",
+      "artist": "AfterImage",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-no-one-alicia-keys",
+      "title": "No One",
+      "artist": "Alicia Keys",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "soul",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-no-scrubs-tlc",
+      "title": "No Scrubs",
+      "artist": "TLC",
+      "genre": "r&b",
+      "language": "english",
+      "tags": [
+        "90s",
+        "r&b"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-nobela-join-the-club",
+      "title": "Nobela",
+      "artist": "Join The Club",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-nothing-else-matters-metallica",
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-november-rain-guns-n-roses",
+      "title": "November Rain",
+      "artist": "Guns N' Roses",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-now-and-forever-richard-marx",
+      "title": "Now and Forever",
+      "artist": "Richard Marx",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-noypi-bamboo",
+      "title": "Noypi",
+      "artist": "Bamboo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-on-the-floor-jennifer-lopez-ft-pitbull",
+      "title": "On The Floor",
+      "artist": "Jennifer Lopez ft. Pitbull",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "latin",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-only-girl-rihanna",
+      "title": "Only Girl",
+      "artist": "Rihanna",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-oo-up-dharma-down",
+      "title": "Oo",
+      "artist": "Up Dharma Down",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "udd",
+        "tagalog",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-pagsamo-arthur-nery",
+      "title": "Pagsamo",
+      "artist": "Arthur Nery",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-pagtingin-benandben",
+      "title": "Pagtingin",
+      "artist": "Ben&Ben",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "folk",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-panalangin-apo-hiking-society",
+      "title": "Panalangin",
+      "artist": "APO Hiking Society",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-pangarap-ko-ang-ibigin-ka-regine-velasquez",
+      "title": "Pangarap Ko Ang Ibigin Ka",
+      "artist": "Regine Velasquez",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-pano-zack-tabudlo",
+      "title": "Pano",
+      "artist": "Zack Tabudlo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-paraluman-adie",
+      "title": "Paraluman",
+      "artist": "Adie",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-pare-ko-eraserheads",
+      "title": "Pare Ko",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-party-in-the-u-s-a-miley-cyrus",
+      "title": "Party in the U.S.A.",
+      "artist": "Miley Cyrus",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-pasensya-ka-na-silent-sanctuary",
+      "title": "Pasensya Ka Na",
+      "artist": "Silent Sanctuary",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-pasilyo-sunkissed-lola",
+      "title": "Pasilyo",
+      "artist": "Sunkissed Lola",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "wedding",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-paubaya-moira-dela-torre",
+      "title": "Paubaya",
+      "artist": "Moira Dela Torre",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-peaches-justin-bieber",
+      "title": "Peaches",
+      "artist": "Justin Bieber",
+      "genre": "r&b",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "r&b"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-pelikula-janine-te-oso-and-arthur-nery",
+      "title": "Pelikula",
+      "artist": "Janine Teñoso & Arthur Nery",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "duet",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-perfect-ed-sheeran",
+      "title": "Perfect",
+      "artist": "Ed Sheeran",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "wedding",
+        "love song",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-photograph-ed-sheeran",
+      "title": "Photograph",
+      "artist": "Ed Sheeran",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "love song",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-piano-man-billy-joel",
+      "title": "Piano Man",
+      "artist": "Billy Joel",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "bar song",
+        "singalong",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-please-forgive-me-bryan-adams",
+      "title": "Please Forgive Me",
+      "artist": "Bryan Adams",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-poker-face-lady-gaga",
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-proud-mary-creedence-clearwater-revival",
+      "title": "Proud Mary",
+      "artist": "Creedence Clearwater Revival",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-rainbow-south-border",
+      "title": "Rainbow",
+      "artist": "South Border",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-raining-in-manila-lola-amour",
+      "title": "Raining in Manila",
+      "artist": "Lola Amour",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-raise-your-glass-pink",
+      "title": "Raise Your Glass",
+      "artist": "Pink",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-rewrite-the-stars-zac-efron-and-zendaya",
+      "title": "Rewrite the Stars",
+      "artist": "Zac Efron & Zendaya",
+      "genre": "musical",
+      "language": "english",
+      "tags": [
+        "duet",
+        "movie",
+        "musical"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-right-here-waiting-richard-marx",
+      "title": "Right Here Waiting",
+      "artist": "Richard Marx",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-roar-katy-perry",
+      "title": "Roar",
+      "artist": "Katy Perry",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-rocket-man-elton-john",
+      "title": "Rocket Man",
+      "artist": "Elton John",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "piano",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-rolling-in-the-deep-adele",
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "soul",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-roxanne-the-police",
+      "title": "Roxanne",
+      "artist": "The Police",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-rude-magic",
+      "title": "Rude",
+      "artist": "MAGIC!",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "reggae",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sa-ngalan-ng-pag-ibig-december-avenue",
+      "title": "Sa Ngalan Ng Pag-Ibig",
+      "artist": "December Avenue",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-salamat-yeng-constantino",
+      "title": "Salamat",
+      "artist": "Yeng Constantino",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-same-ground-kitchie-nadal",
+      "title": "Same Ground",
+      "artist": "Kitchie Nadal",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sana-maulit-muli-gary-valenciano",
+      "title": "Sana Maulit Muli",
+      "artist": "Gary Valenciano",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-save-your-tears-the-weeknd",
+      "title": "Save Your Tears",
+      "artist": "The Weeknd",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-say-my-name-destiny-s-child",
+      "title": "Say My Name",
+      "artist": "Destiny's Child",
+      "genre": "r&b",
+      "language": "english",
+      "tags": [
+        "90s",
+        "r&b"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-say-you-say-me-lionel-richie",
+      "title": "Say You, Say Me",
+      "artist": "Lionel Richie",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-say-you-ll-never-go-neocolours",
+      "title": "Say You'll Never Go",
+      "artist": "Neocolours",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-se-orita-shawn-mendes-and-camila-cabello",
+      "title": "Señorita",
+      "artist": "Shawn Mendes & Camila Cabello",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "duet",
+        "latin",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-september-earth-wind-and-fire",
+      "title": "September",
+      "artist": "Earth, Wind & Fire",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-set-fire-to-the-rain-adele",
+      "title": "Set Fire to the Rain",
+      "artist": "Adele",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "soul",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-set-you-free-side-a",
+      "title": "Set You Free",
+      "artist": "Side A",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-shallow-lady-gaga-and-bradley-cooper",
+      "title": "Shallow",
+      "artist": "Lady Gaga & Bradley Cooper",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "duet",
+        "movie",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-shape-of-you-ed-sheeran",
+      "title": "Shape of You",
+      "artist": "Ed Sheeran",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sign-of-the-times-harry-styles",
+      "title": "Sign of the Times",
+      "artist": "Harry Styles",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "pop rock",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-since-u-been-gone-kelly-clarkson",
+      "title": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "pop rock",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-sk8er-boi-avril-lavigne",
+      "title": "Sk8er Boi",
+      "artist": "Avril Lavigne",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "pop rock",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-smells-like-teen-spirit-nirvana",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "grunge",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-so-slow-freestyle",
+      "title": "So Slow",
+      "artist": "Freestyle",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-somebody-to-love-queen",
+      "title": "Somebody to Love",
+      "artist": "Queen",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-someday-nina",
+      "title": "Someday",
+      "artist": "Nina",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-someone-like-you-adele",
+      "title": "Someone Like You",
+      "artist": "Adele",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sorry-justin-bieber",
+      "title": "Sorry",
+      "artist": "Justin Bieber",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-spoliarium-eraserheads",
+      "title": "Spoliarium",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-stand-by-me-ben-e-king",
+      "title": "Stand by Me",
+      "artist": "Ben E. King",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "soul",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-starboy-the-weeknd",
+      "title": "Starboy",
+      "artist": "The Weeknd",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stay-cueshe",
+      "title": "Stay",
+      "artist": "Cueshe",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-stay-the-kid-laroi-and-justin-bieber",
+      "title": "Stay",
+      "artist": "The Kid LAROI & Justin Bieber",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stay-rihanna-ft-mikky-ekko",
+      "title": "Stay",
+      "artist": "Rihanna ft. Mikky Ekko",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "duet",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stayin-alive-bee-gees",
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stitches-shawn-mendes",
+      "title": "Stitches",
+      "artist": "Shawn Mendes",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stronger-kelly-clarkson",
+      "title": "Stronger",
+      "artist": "Kelly Clarkson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-stuck-on-you-lionel-richie",
+      "title": "Stuck on You",
+      "artist": "Lionel Richie",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-summer-of-69-bryan-adams",
+      "title": "Summer of '69",
+      "artist": "Bryan Adams",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sweet-caroline-neil-diamond",
+      "title": "Sweet Caroline",
+      "artist": "Neil Diamond",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "party",
+        "singalong",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sweet-child-o-mine-guns-n-roses",
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-sweet-home-alabama-lynyrd-skynyrd",
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-synesthesia-mayonnaise",
+      "title": "Synesthesia",
+      "artist": "Mayonnaise",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-tadhana-up-dharma-down",
+      "title": "Tadhana",
+      "artist": "Up Dharma Down",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "udd",
+        "tagalog",
+        "indie",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tagpuan-moira-dela-torre",
+      "title": "Tagpuan",
+      "artist": "Moira Dela Torre",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tahanan-adie",
+      "title": "Tahanan",
+      "artist": "Adie",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "pop",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-take-all-the-love-arthur-nery",
+      "title": "Take All The Love",
+      "artist": "Arthur Nery",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-take-on-me-a-ha",
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "80s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tala-sarah-geronimo",
+      "title": "Tala",
+      "artist": "Sarah Geronimo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "dance",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tatsulok-bamboo",
+      "title": "Tatsulok",
+      "artist": "Bamboo",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tears-in-heaven-eric-clapton",
+      "title": "Tears in Heaven",
+      "artist": "Eric Clapton",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-teenage-dream-katy-perry",
+      "title": "Teenage Dream",
+      "artist": "Katy Perry",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-tell-me-side-a",
+      "title": "Tell Me",
+      "artist": "Side A",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-tennessee-whiskey-chris-stapleton",
+      "title": "Tennessee Whiskey",
+      "artist": "Chris Stapleton",
+      "genre": "country",
+      "language": "english",
+      "tags": [
+        "soul",
+        "country"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-terminal-rupert-holmes",
+      "title": "Terminal",
+      "artist": "Rupert Holmes",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "filipino favorite",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-the-day-you-said-goodnight-hale",
+      "title": "The Day You Said Goodnight",
+      "artist": "Hale",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-the-power-of-love-celine-dion",
+      "title": "The Power of Love",
+      "artist": "Celine Dion",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-the-scientist-coldplay",
+      "title": "The Scientist",
+      "artist": "Coldplay",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-thinking-out-loud-ed-sheeran",
+      "title": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "wedding",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-thriller-michael-jackson",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-to-love-somebody-bee-gees",
+      "title": "To Love Somebody",
+      "artist": "Bee Gees",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-torete-moonstar88",
+      "title": "Torete",
+      "artist": "Moonstar88",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-torn-natalie-imbruglia",
+      "title": "Torn",
+      "artist": "Natalie Imbruglia",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "90s",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-total-eclipse-of-the-heart-bonnie-tyler",
+      "title": "Total Eclipse of the Heart",
+      "artist": "Bonnie Tyler",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-toxic-britney-spears",
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-treat-you-better-shawn-mendes",
+      "title": "Treat You Better",
+      "artist": "Shawn Mendes",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-truly-lionel-richie",
+      "title": "Truly",
+      "artist": "Lionel Richie",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-try-pink",
+      "title": "Try",
+      "artist": "Pink",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-tuliro-sponge-cola",
+      "title": "Tuliro",
+      "artist": "Sponge Cola",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-tuloy-pa-rin-neocolours",
+      "title": "Tuloy Pa Rin",
+      "artist": "Neocolours",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "classic",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-twist-and-shout-the-beatles",
+      "title": "Twist and Shout",
+      "artist": "The Beatles",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "party",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-two-steps-behind-def-leppard",
+      "title": "Two Steps Behind",
+      "artist": "Def Leppard",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "acoustic",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-uhaw-dilaw",
+      "title": "Uhaw",
+      "artist": "Dilaw",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-ulan-cueshe",
+      "title": "Ulan",
+      "artist": "Cueshe",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-umbrella-rihanna-ft-jay-z",
+      "title": "Umbrella",
+      "artist": "Rihanna ft. Jay-Z",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-unchained-melody-the-righteous-brothers",
+      "title": "Unchained Melody",
+      "artist": "The Righteous Brothers",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-unti-unti-up-dharma-down",
+      "title": "Unti-Unti",
+      "artist": "Up Dharma Down",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "udd",
+        "tagalog",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-uptown-funk-mark-ronson-ft-bruno-mars",
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson ft. Bruno Mars",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "funk",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-valerie-amy-winehouse",
+      "title": "Valerie",
+      "artist": "Amy Winehouse",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "soul",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-vampire-olivia-rodrigo",
+      "title": "Vampire",
+      "artist": "Olivia Rodrigo",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "modern pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-videoke-warmup-vibeoke",
+      "title": "Videoke Warmup",
+      "artist": "Vibeoke",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "demo",
+        "test",
+        "lrc",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics": "[00:00.00]Welcome to the stage\n[00:04.00]Check the mic and breathe\n[00:08.00]Follow the highlighted line\n[00:12.00]Now sing it loud and easy",
+      "lyrics_preview": "A built-in synced lyrics demo for checking the player overlay."
+    },
+    {
+      "id": "song-viva-la-vida-coldplay",
+      "title": "Viva La Vida",
+      "artist": "Coldplay",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "band",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-waka-waka-shakira",
+      "title": "Waka Waka",
+      "artist": "Shakira",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "world cup",
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-wake-me-up-before-you-go-go-wham",
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-wala-na-bang-pag-ibig-jaya",
+      "title": "Wala Na Bang Pag-Ibig",
+      "artist": "Jaya",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-waterloo-abba",
+      "title": "Waterloo",
+      "artist": "ABBA",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "disco",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-watermelon-sugar-harry-styles",
+      "title": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "party",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-we-are-the-champions-queen",
+      "title": "We Are the Champions",
+      "artist": "Queen",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-we-belong-together-mariah-carey",
+      "title": "We Belong Together",
+      "artist": "Mariah Carey",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "r&b",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-we-found-love-rihanna",
+      "title": "We Found Love",
+      "artist": "Rihanna",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "dance",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-what-about-us-pink",
+      "title": "What About Us",
+      "artist": "Pink",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "anthem",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-when-i-met-you-apo-hiking-society",
+      "title": "When I Met You",
+      "artist": "APO Hiking Society",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "classic",
+        "filipino",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-when-i-see-you-smile-bad-english",
+      "title": "When I See You Smile",
+      "artist": "Bad English",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-when-i-was-your-man-bruno-mars",
+      "title": "When I Was Your Man",
+      "artist": "Bruno Mars",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-whenever-wherever-shakira",
+      "title": "Whenever, Wherever",
+      "artist": "Shakira",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "latin",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-with-a-smile-eraserheads",
+      "title": "With a Smile",
+      "artist": "Eraserheads",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "rock",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-with-or-without-you-u2",
+      "title": "With or Without You",
+      "artist": "U2",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "classic rock",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-wonderful-tonight-eric-clapton",
+      "title": "Wonderful Tonight",
+      "artist": "Eric Clapton",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-wonderwall-oasis",
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "britpop",
+        "90s",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-wrecking-ball-miley-cyrus",
+      "title": "Wrecking Ball",
+      "artist": "Miley Cyrus",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "power ballad",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-yakap-sa-dilim-orange-and-lemons",
+      "title": "Yakap Sa Dilim",
+      "artist": "Orange & Lemons",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-yellow-coldplay",
+      "title": "Yellow",
+      "artist": "Coldplay",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "band",
+        "ballad",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-yellow-submarine-the-beatles",
+      "title": "Yellow Submarine",
+      "artist": "The Beatles",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "oldies",
+        "singalong",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-yesterday-the-beatles",
+      "title": "Yesterday",
+      "artist": "The Beatles",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-yk-cean-jr",
+      "title": "YK",
+      "artist": "Cean Jr.",
+      "genre": "opm",
+      "language": "filipino",
+      "tags": [
+        "tagalog",
+        "r&b",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-you-belong-with-me-taylor-swift",
+      "title": "You Belong with Me",
+      "artist": "Taylor Swift",
+      "genre": "pop",
+      "language": "english",
+      "tags": [
+        "country pop",
+        "pop"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-you-oughta-know-alanis-morissette",
+      "title": "You Oughta Know",
+      "artist": "Alanis Morissette",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "90s",
+        "alternative",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      }
+    },
+    {
+      "id": "song-you-raise-me-up-josh-groban",
+      "title": "You Raise Me Up",
+      "artist": "Josh Groban",
+      "genre": "ballad",
+      "language": "english",
+      "tags": [
+        "inspirational",
+        "ballad"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-you-ll-be-safe-here-rico-blanco",
+      "title": "You'll Be Safe Here",
+      "artist": "Rico Blanco",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "ballad",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-your-song-elton-john",
+      "title": "Your Song",
+      "artist": "Elton John",
+      "genre": "classic",
+      "language": "english",
+      "tags": [
+        "piano",
+        "ballad",
+        "classic"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-your-song-parokya-ni-edgar",
+      "title": "Your Song",
+      "artist": "Parokya ni Edgar",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-your-universe-rico-blanco",
+      "title": "Your Universe",
+      "artist": "Rico Blanco",
+      "genre": "opm",
+      "language": "english",
+      "tags": [
+        "filipino",
+        "band",
+        "opm"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    },
+    {
+      "id": "song-zombie-the-cranberries",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "genre": "rock",
+      "language": "english",
+      "tags": [
+        "alternative",
+        "rock"
+      ],
+      "source": {
+        "type": "youtube_search"
+      },
+      "lyrics_preview": "Lyrics preview appears here when synced lyrics are saved. Most karaoke videos include on-screen lyrics during playback."
+    }
+  ]
+}
