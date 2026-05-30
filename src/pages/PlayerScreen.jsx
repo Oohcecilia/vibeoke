@@ -421,7 +421,7 @@ function QueueRibbon({ queue }) {
 
 function PlayerControls({ canAdvance, isFullscreen, onNext, onFullscreen }) {
   return (
-    <div className="absolute z-40 right-3 top-3 sm:right-5 sm:top-5 flex items-center gap-2 pointer-events-auto">
+    <div className="absolute z-40 right-3 bottom-3 sm:right-5 sm:bottom-5 flex items-center gap-2 pointer-events-auto">
       <PlayerControlButton label="Next" onClick={onNext} disabled={!canAdvance}>
         <SkipForward className="w-4 h-4 sm:w-5 sm:h-5" />
       </PlayerControlButton>
