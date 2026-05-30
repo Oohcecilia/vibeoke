@@ -34,11 +34,15 @@ The searchable library lives in:
 src/data/songs.library.json
 ```
 
-Search indexes song title, artist, genre, language, and tags. Custom songs added from the controller are stored by the realtime server and become searchable for every connected device. YouTube playback searches with:
+Search indexes song title, artist, genre, language, and tags. Custom songs added from the controller are stored by the realtime server and become searchable for every connected device. YouTube playback searches and ranks several karaoke-focused variants such as:
 
 ```text
-{song title} {artist} karaoke instrumental lyrics no vocals
+{song title} {artist} official karaoke lyrics
+{song title} {artist} karaoke version sing along
+{song title} {artist} minus one with guide
 ```
+
+Results are classified as `Karaoke (No Vocals)`, `Karaoke (Guide Vocals)`, `Original Song`, `Instrumental`, or `Lyric Video`; playback accepts karaoke-classified results first and avoids original songs, lyric-only videos, and weak instrumental matches.
 
 ## YouTube Search
 

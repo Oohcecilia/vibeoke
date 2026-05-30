@@ -322,6 +322,7 @@ export default function Controller() {
               <aside className="hidden lg:flex min-h-0 rounded-lg border border-border/50 bg-card/65 overflow-hidden">
                 <QueuePanel
                   queue={queue}
+                  playerState={playerState}
                   onDragEnd={handleDragEnd}
                   onBrowse={() => setActiveTab('library')}
                   onRemove={removeFromQueue}
@@ -342,6 +343,7 @@ export default function Controller() {
           >
             <QueuePanel
               queue={queue}
+              playerState={playerState}
               onDragEnd={handleDragEnd}
               onBrowse={() => setActiveTab('library')}
               onRemove={removeFromQueue}
@@ -484,26 +486,16 @@ function LibraryEditor({ draft, bulkImport, isSaving, onDraftChange, onBulkChang
   );
 }
 
-function QueuePanel({ queue, onDragEnd, onBrowse, onRemove, onPlayNow, onNext, compact = false }) {
-  if (queue.length === 0) {
-    return (
-      <div className="h-full w-full flex flex-col items-center justify-center text-center text-muted-foreground p-6">
-        <ListMusic className="w-14 h-14 mb-4 opacity-20" />
-        <p className="font-semibold text-base">Queue is empty</p>
-        <p className="text-sm mt-1 opacity-70">Press Add Queue from the library.</p>
-        <Button onClick={onBrowse} className="mt-6 gap-2">
-          <Search className="w-4 h-4" />
-          Browse Songs
-        </Button>
-      </div>
-    );
-  }
+function QueuePanel({ queue, playerState, onDragEnd, onBrowse, onRemove, onPlayNow, onNext, compact = false }) {
+  const hasCurrentSong = !!playerState?.current_song_title;
 
   return (
     <div className="h-full w-full flex flex-col min-h-0 p-3">
+      {hasCurrentSong && <NowPlayingQueueCard playerState={playerState} />}
+
       <div className="shrink-0 flex items-center justify-between gap-3 mb-3">
         <div>
-          <p className="text-xs text-muted-foreground uppercase tracking-wider font-semibold">{queue.length} reserved</p>
+          <p className="text-xs text-muted-foreground uppercase tracking-wider font-semibold">{queue.length} reserved next</p>
           {!compact && <p className="text-[11px] text-muted-foreground/70">Drag handles reorder the list.</p>}
         </div>
         <Button onClick={onNext} size="sm" className="gap-2">
@@ -512,61 +504,144 @@ function QueuePanel({ queue, onDragEnd, onBrowse, onRemove, onPlayNow, onNext, c
         </Button>
       </div>
 
-      <ScrollArea className="flex-1 min-h-0 overscroll-contain">
-        <DragDropContext onDragEnd={onDragEnd}>
-          <Droppable droppableId={compact ? 'queue-compact' : 'queue'}>
-            {(provided) => (
-              <div ref={provided.innerRef} {...provided.droppableProps} className="space-y-2 pb-2">
-                <AnimatePresence>
-                  {queue.map((item, index) => (
-                    <Draggable key={item.id} draggableId={item.id} index={index}>
-                      {(provided, snapshot) => (
-                        <motion.div
-                          ref={provided.innerRef}
-                          {...provided.draggableProps}
-                          initial={{ opacity: 0, y: 10 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          exit={{ opacity: 0, x: 30 }}
-                          className={`flex items-center gap-3 p-3 rounded-lg border transition-all ${
-                            snapshot.isDragging
-                              ? 'bg-primary/10 border-primary/45 shadow-lg shadow-primary/10'
-                              : index === 0
-                                ? 'bg-accent/10 border-accent/30'
-                                : 'bg-card/60 border-border/40 hover:border-border/70'
-                          }`}
-                        >
-                          <button {...provided.dragHandleProps} className="w-9 h-9 rounded-md flex items-center justify-center text-muted-foreground hover:bg-secondary/60 hover:text-foreground touch-none" title="Drag to reorder">
-                            <GripVertical className="w-4 h-4" />
-                          </button>
-                          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${
-                            index === 0 ? 'bg-accent/20 text-accent' : 'bg-secondary text-muted-foreground'
-                          }`}>
-                            {index === 0 ? <SkipForward className="w-4 h-4" /> : index + 1}
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <p className="text-sm font-semibold truncate">{item.song_title}</p>
-                            <p className="text-xs text-muted-foreground truncate">{item.song_artist || item.singer_name}</p>
-                          </div>
-                          <div className="flex items-center gap-1 shrink-0">
-                            <IconButton label="Play now" onClick={() => onPlayNow(item)}>
-                              <Play className="w-4 h-4" />
-                            </IconButton>
-                            <IconButton label="Remove" onClick={() => onRemove(item.id)}>
-                              <Trash2 className="w-4 h-4" />
-                            </IconButton>
-                          </div>
-                        </motion.div>
-                      )}
-                    </Draggable>
-                  ))}
-                </AnimatePresence>
-                {provided.placeholder}
-              </div>
-            )}
-          </Droppable>
-        </DragDropContext>
-      </ScrollArea>
+      {queue.length === 0 ? (
+        <EmptyQueue onBrowse={onBrowse} />
+      ) : (
+        <ScrollArea className="flex-1 min-h-0 overscroll-contain">
+          <DragDropContext onDragEnd={onDragEnd}>
+            <Droppable droppableId={compact ? 'queue-compact' : 'queue'}>
+              {(provided) => (
+                <div ref={provided.innerRef} {...provided.droppableProps} className="space-y-2 pb-2">
+                  <AnimatePresence>
+                    {queue.map((item, index) => (
+                      <Draggable key={item.id} draggableId={item.id} index={index}>
+                        {(provided, snapshot) => (
+                          <QueueItemCard
+                            item={item}
+                            index={index}
+                            provided={provided}
+                            snapshot={snapshot}
+                            onPlayNow={onPlayNow}
+                            onRemove={onRemove}
+                          />
+                        )}
+                      </Draggable>
+                    ))}
+                  </AnimatePresence>
+                  {provided.placeholder}
+                </div>
+              )}
+            </Droppable>
+          </DragDropContext>
+        </ScrollArea>
+      )}
     </div>
+  );
+}
+
+function NowPlayingQueueCard({ playerState }) {
+  return (
+    <div className="shrink-0 mb-3 rounded-lg border border-primary/45 bg-primary/12 p-3 shadow-lg shadow-primary/10">
+      <div className="flex items-start gap-3 min-w-0">
+        <div className="w-10 h-10 rounded-lg bg-primary text-primary-foreground flex items-center justify-center shrink-0">
+          <Disc3 className="w-5 h-5" />
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary">Now Playing</span>
+            <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
+          </div>
+          <p className="font-semibold text-sm sm:text-base truncate">{playerState.current_song_title}</p>
+          <p className="text-xs text-muted-foreground truncate">{playerState.current_song_artist || 'Unknown artist'}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function EmptyQueue({ onBrowse }) {
+  return (
+    <div className="flex-1 min-h-0 flex flex-col items-center justify-center text-center text-muted-foreground p-6 rounded-lg border border-dashed border-border/60 bg-card/35">
+      <ListMusic className="w-14 h-14 mb-4 opacity-20" />
+      <p className="font-semibold text-base">Queue is empty</p>
+      <p className="text-sm mt-1 opacity-70">Press Add Queue from the library.</p>
+      <Button onClick={onBrowse} className="mt-6 gap-2">
+        <Search className="w-4 h-4" />
+        Browse Songs
+      </Button>
+    </div>
+  );
+}
+
+function QueueItemCard({ item, index, provided, snapshot, onPlayNow, onRemove }) {
+  return (
+    <motion.div
+      ref={provided.innerRef}
+      {...provided.draggableProps}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, x: 30 }}
+      className={`rounded-lg border p-3 transition-all ${
+        snapshot.isDragging
+          ? 'bg-primary/10 border-primary/45 shadow-lg shadow-primary/10'
+          : index === 0
+            ? 'bg-accent/10 border-accent/30'
+            : 'bg-card/60 border-border/40 hover:border-border/70'
+      }`}
+    >
+      <div className="flex items-start gap-3 min-w-0">
+        <button
+          {...provided.dragHandleProps}
+          className="w-10 h-10 rounded-md flex items-center justify-center text-muted-foreground hover:bg-secondary/60 hover:text-foreground touch-none shrink-0"
+          title="Drag to reorder"
+          aria-label={`Reorder ${item.song_title}`}
+        >
+          <GripVertical className="w-4 h-4" />
+        </button>
+        <div className={`w-11 h-10 rounded-lg flex flex-col items-center justify-center text-[10px] font-black shrink-0 ${
+          index === 0 ? 'bg-accent/20 text-accent' : 'bg-secondary text-muted-foreground'
+        }`}>
+          <span className="leading-none">#{index + 1}</span>
+          {index === 0 && <span className="text-[8px] leading-none mt-0.5">NEXT</span>}
+        </div>
+        <div className="min-w-0 flex-1">
+          <p className="text-sm sm:text-base font-semibold truncate">{item.song_title}</p>
+          <p className="text-xs text-muted-foreground truncate">{item.song_artist || item.singer_name || 'Unknown artist'}</p>
+          <p className="text-[10px] text-muted-foreground/70 truncate mt-1">
+            Reserved {formatQueuedTime(item.queued_at)}
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-3 grid grid-cols-2 gap-2 sm:flex sm:justify-end">
+        <QueueActionButton label="Play now" onClick={() => onPlayNow(item)}>
+          <Play className="w-4 h-4" />
+          <span>Play</span>
+        </QueueActionButton>
+        <QueueActionButton label="Remove" onClick={() => onRemove(item.id)} danger>
+          <Trash2 className="w-4 h-4" />
+          <span>Remove</span>
+        </QueueActionButton>
+      </div>
+    </motion.div>
+  );
+}
+
+function QueueActionButton({ children, label, onClick, danger = false }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      title={label}
+      aria-label={label}
+      className={`h-10 px-3 rounded-md border flex items-center justify-center gap-2 text-xs font-semibold transition-colors ${
+        danger
+          ? 'border-destructive/25 text-destructive hover:bg-destructive/10'
+          : 'border-border/60 text-foreground hover:border-primary/35 hover:bg-primary/10'
+      }`}
+    >
+      {children}
+    </button>
   );
 }
 
@@ -667,6 +742,20 @@ function parseTags(value) {
     .split(',')
     .map((tag) => tag.trim())
     .filter(Boolean);
+}
+
+function formatQueuedTime(value) {
+  const timestamp = Number(value);
+  if (!timestamp) return 'just now';
+
+  const minutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60000));
+  if (minutes < 1) return 'just now';
+  if (minutes === 1) return '1 min ago';
+  if (minutes < 60) return `${minutes} min ago`;
+
+  const hours = Math.floor(minutes / 60);
+  if (hours === 1) return '1 hr ago';
+  return `${hours} hr ago`;
 }
 
 function SearchSkeleton() {

@@ -1,12 +1,100 @@
 import { buildKaraokeSearchQuery } from '@/lib/karaokeCore';
 
-const KARAOKE_TERMS = ['karaoke', 'videoke', 'instrumental', 'lyrics', 'no vocals', 'sing along', 'minus one', 'backing track'];
-const NEGATIVE_TERMS = ['reaction', 'review', 'tutorial', 'lesson', 'cover by', 'vocal coach', 'official music video', 'live performance'];
+export const YOUTUBE_CLASSIFICATIONS = {
+  KARAOKE_NO_VOCALS: 'Karaoke (No Vocals)',
+  KARAOKE_GUIDE_VOCALS: 'Karaoke (Guide Vocals)',
+  ORIGINAL_SONG: 'Original Song',
+  INSTRUMENTAL: 'Instrumental',
+  LYRIC_VIDEO: 'Lyric Video',
+};
+
+const PREFERRED_PHRASES = [
+  ['official karaoke', 42],
+  ['karaoke version', 38],
+  ['karaoke track', 34],
+  ['minus one with guide', 32],
+  ['minus one', 30],
+  ['sing along', 28],
+  ['videoke', 26],
+  ['karaoke', 24],
+  ['no vocals', 24],
+  ['no vocal', 24],
+  ['without vocals', 22],
+  ['with lyrics', 18],
+  ['on screen lyrics', 18],
+  ['on-screen lyrics', 18],
+  ['color coded', 14],
+  ['original key', 10],
+  ['hq', 6],
+  ['hd', 6],
+  ['1080p', 6],
+  ['720p', 4],
+];
+const KARAOKE_PATTERNS = [
+  /\bofficial karaoke\b/i,
+  /\bkaraoke( version| track)?\b/i,
+  /\bvideoke\b/i,
+  /\bsing[-\s]?along\b/i,
+  /\bminus one\b/i,
+];
+const GUIDE_PATTERNS = [
+  /\bwith guide\b/i,
+  /\bguide vocal/i,
+  /\bguide melody\b/i,
+  /\bmelody guide\b/i,
+  /\bminus one with guide\b/i,
+];
+const NO_VOCAL_PATTERNS = [
+  /\bno vocals?\b/i,
+  /\bwithout vocals?\b/i,
+  /\bno lead vocals?\b/i,
+  /\bvocal removed\b/i,
+  /\bminus one\b/i,
+];
+const LYRIC_VIDEO_PATTERNS = [
+  /\blyric video\b/i,
+  /\blyrics video\b/i,
+  /\bofficial lyric\b/i,
+  /\bmusic[-\s]?free lyrics\b/i,
+  /\blyrics only\b/i,
+];
+const ORIGINAL_PATTERNS = [
+  /\bofficial music video\b/i,
+  /\boriginal song\b/i,
+  /\boriginal audio\b/i,
+  /\bofficial audio\b/i,
+];
+const INSTRUMENTAL_ONLY_PATTERNS = [
+  /\binstrumental only\b/i,
+  /\bpiano instrumental\b/i,
+  /\bguitar instrumental\b/i,
+  /\borchestra instrumental\b/i,
+  /\bbacking track\b/i,
+  /\binstrumental\b/i,
+];
+const NEGATIVE_PATTERNS = [
+  /\breaction\b/i,
+  /\breview\b/i,
+  /\btutorial\b/i,
+  /\blesson\b/i,
+  /\bcover by\b/i,
+  /\bvocal coach\b/i,
+  /\blive performance\b/i,
+  /\bconcert\b/i,
+  /\bacoustic cover\b/i,
+  /\bremix\b/i,
+  /\bno music\b/i,
+  /\bacapella\b/i,
+  /\ba cappella\b/i,
+  /\bshorts?\b/i,
+];
+const SEARCH_MODIFIER_PATTERN = /\b(official karaoke|karaoke version|karaoke track|karaoke|videoke|instrumental|lyrics?|lyric video|no vocals?|without vocals?|minus one(?: with guide)?|sing[-\s]?along|backing track|hd|hq|1080p|720p)\b/gi;
 const PIPED_SEARCH_ENDPOINTS = [
   'https://piped.video/api/search',
   'https://pipedapi.kavin.rocks/search',
   'https://pipedapi.adminforge.de/search',
 ];
+const MIN_ACCEPTABLE_SCORE = 36;
 
 export function extractYouTubeVideoId(value = '') {
   const input = value.trim();
@@ -39,8 +127,22 @@ export function buildKaraokeQuery(query = '') {
   return buildKaraokeSearchQuery(query);
 }
 
+export function buildYouTubeSearchQueries(query = '') {
+  const subject = stripSearchModifiers(query) || String(query || '').trim();
+  const cleanSubject = subject.replace(/\s+/g, ' ').trim();
+  if (!cleanSubject) return [];
+
+  return uniqueStrings([
+    `${cleanSubject} official karaoke lyrics`,
+    `${cleanSubject} karaoke version sing along`,
+    `${cleanSubject} minus one with guide`,
+    `${cleanSubject} karaoke no vocals`,
+    buildKaraokeQuery(cleanSubject),
+  ]);
+}
+
 export function buildYouTubeSearchUrl(query = '') {
-  const search = buildKaraokeQuery(query);
+  const search = buildYouTubeSearchQueries(query)[0] || buildKaraokeQuery(query);
   return `https://www.youtube.com/results?search_query=${encodeURIComponent(search)}`;
 }
 
@@ -70,32 +172,55 @@ export function buildEmbedUrl(song, autoplay = false) {
   return `https://www.youtube.com/embed?${params.toString()}`;
 }
 
-function scoreKaraokeResult(result) {
-  const title = `${result.title || ''} ${result.description || ''}`.toLowerCase();
-  let score = 0;
+export function classifyYouTubeResult(result = {}) {
+  const text = resultText(result);
+  const hasKaraoke = matchesAny(text, KARAOKE_PATTERNS);
+  const hasGuide = matchesAny(text, GUIDE_PATTERNS);
+  const hasNoVocals = matchesAny(text, NO_VOCAL_PATTERNS);
+  const isLyricVideo = matchesAny(text, LYRIC_VIDEO_PATTERNS);
+  const isOriginal = matchesAny(text, ORIGINAL_PATTERNS);
+  const isInstrumental = matchesAny(text, INSTRUMENTAL_ONLY_PATTERNS);
 
-  for (const term of KARAOKE_TERMS) {
-    if (title.includes(term)) {
-      if (term === 'karaoke' || term === 'videoke') score += 12;
-      else if (term === 'instrumental' || term === 'no vocals' || term === 'minus one') score += 8;
-      else if (term === 'lyrics') score += 6;
-      else score += 4;
-    }
-  }
-  for (const term of NEGATIVE_TERMS) {
-    if (title.includes(term)) score -= 6;
-  }
-  if (/karaoke\s*(version|track)|instrumental\s*(version|track)|no\s+vocal/i.test(title)) score += 6;
-  if (/hd|hq/i.test(title)) score += 1;
-  return score;
+  if (hasKaraoke && hasGuide) return YOUTUBE_CLASSIFICATIONS.KARAOKE_GUIDE_VOCALS;
+  if (hasKaraoke || hasNoVocals) return YOUTUBE_CLASSIFICATIONS.KARAOKE_NO_VOCALS;
+  if (isLyricVideo) return YOUTUBE_CLASSIFICATIONS.LYRIC_VIDEO;
+  if (isOriginal) return YOUTUBE_CLASSIFICATIONS.ORIGINAL_SONG;
+  if (isInstrumental) return YOUTUBE_CLASSIFICATIONS.INSTRUMENTAL;
+  return YOUTUBE_CLASSIFICATIONS.ORIGINAL_SONG;
 }
 
-function normalizeOfficialItem(item) {
+function analyzeYouTubeResult(result, sourceQuery = '') {
+  const text = resultText(result);
+  const classification = classifyYouTubeResult(result);
+  let score = classificationScore(classification);
+
+  for (const [phrase, value] of PREFERRED_PHRASES) {
+    if (text.includes(phrase)) score += value;
+  }
+
+  if (matchesAny(text, NEGATIVE_PATTERNS)) score -= 42;
+  if (matchesAny(text, ORIGINAL_PATTERNS) && !matchesAny(text, KARAOKE_PATTERNS)) score -= 52;
+  if (matchesAny(text, LYRIC_VIDEO_PATTERNS) && !matchesAny(text, KARAOKE_PATTERNS)) score -= 58;
+  if (matchesAny(text, INSTRUMENTAL_ONLY_PATTERNS) && !matchesAny(text, KARAOKE_PATTERNS) && !matchesAny(text, GUIDE_PATTERNS)) score -= 30;
+  if (/\b(low quality|bad audio|distorted|chipmunk|pitched|demo)\b/i.test(text)) score -= 24;
+
+  score += relevanceScore(text, sourceQuery);
+
+  return {
+    classification,
+    score,
+    classification_reason: getClassificationReason(classification),
+  };
+}
+
+function normalizeOfficialItem(item, sourceQuery = '') {
   const videoId = item?.id?.videoId;
   if (!videoId) return null;
   const snippet = item.snippet || {};
   const title = decodeHtml(snippet.title || 'YouTube karaoke result');
   const artist = decodeHtml(snippet.channelTitle || 'YouTube');
+  const description = decodeHtml(snippet.description || '');
+  const analysis = analyzeYouTubeResult({ title, description, channel: artist }, sourceQuery);
 
   return {
     id: `youtube-${videoId}`,
@@ -107,20 +232,24 @@ function normalizeOfficialItem(item) {
     video_id: videoId,
     thumbnail: snippet.thumbnails?.medium?.url || thumbnailForVideo(videoId),
     search_query: buildKaraokeQuery(title),
-    lyrics_preview: 'YouTube karaoke result. On-screen lyrics or captions may be available in the video.',
+    lyrics_preview: getResultPreview(analysis.classification),
+    classification: analysis.classification,
+    classification_reason: analysis.classification_reason,
     provider: 'youtube',
     external_url: `https://www.youtube.com/watch?v=${videoId}`,
-    score: scoreKaraokeResult({ title, description: snippet.description }),
+    score: analysis.score,
   };
 }
 
-function normalizePipedItem(item) {
+function normalizePipedItem(item, sourceQuery = '') {
   const url = item?.url || item?.urlSlug || '';
   const videoId = extractYouTubeVideoId(url) || extractYouTubeVideoId(item?.id || '');
   if (!videoId || item?.type === 'channel') return null;
 
   const title = decodeHtml(item.title || 'YouTube karaoke result');
   const artist = decodeHtml(item.uploaderName || item.uploader || 'YouTube');
+  const description = decodeHtml(item.shortDescription || item.description || '');
+  const analysis = analyzeYouTubeResult({ title, description, channel: artist }, sourceQuery);
   const thumbnail = Array.isArray(item.thumbnails)
     ? item.thumbnails[0]?.url
     : item.thumbnail || thumbnailForVideo(videoId);
@@ -136,10 +265,12 @@ function normalizePipedItem(item) {
     thumbnail,
     duration: item.duration,
     search_query: buildKaraokeQuery(title),
-    lyrics_preview: 'YouTube karaoke result. On-screen lyrics or captions may be available in the video.',
+    lyrics_preview: getResultPreview(analysis.classification),
+    classification: analysis.classification,
+    classification_reason: analysis.classification_reason,
     provider: 'youtube',
     external_url: `https://www.youtube.com/watch?v=${videoId}`,
-    score: scoreKaraokeResult({ title, description: item.shortDescription }),
+    score: analysis.score,
   };
 }
 
@@ -158,9 +289,11 @@ function directVideoResult(input) {
     thumbnail: thumbnailForVideo(videoId),
     search_query: 'YouTube karaoke',
     lyrics_preview: 'Direct YouTube video. Lyrics appear if the video includes them.',
+    classification: YOUTUBE_CLASSIFICATIONS.KARAOKE_NO_VOCALS,
+    classification_reason: 'Direct YouTube links are trusted as user-selected karaoke sources.',
     provider: 'youtube',
     external_url: `https://www.youtube.com/watch?v=${videoId}`,
-    score: 20,
+    score: 120,
   };
 }
 
@@ -172,27 +305,34 @@ export async function searchYouTubeKaraoke(query, { signal } = {}) {
   if (direct) return [direct];
 
   const apiKey = getYouTubeApiKey();
-  const searchQuery = buildKaraokeQuery(trimmed);
+  const searchQueries = buildYouTubeSearchQueries(trimmed);
   let officialSearchError;
 
   if (apiKey) {
     try {
-      const url = new URL('https://www.googleapis.com/youtube/v3/search');
-      url.searchParams.set('part', 'snippet');
-      url.searchParams.set('type', 'video');
-      url.searchParams.set('videoEmbeddable', 'true');
-      url.searchParams.set('safeSearch', 'none');
-      url.searchParams.set('maxResults', '16');
-      url.searchParams.set('q', searchQuery);
-      url.searchParams.set('key', apiKey);
+      const officialItems = [];
 
-      const response = await fetch(url, { signal });
-      const data = await response.json().catch(() => ({}));
-      if (!response.ok) {
-        throw new Error(getYouTubeApiErrorMessage(data, response.status));
+      for (const searchQuery of searchQueries.slice(0, 4)) {
+        const url = new URL('https://www.googleapis.com/youtube/v3/search');
+        url.searchParams.set('part', 'snippet');
+        url.searchParams.set('type', 'video');
+        url.searchParams.set('videoEmbeddable', 'true');
+        url.searchParams.set('safeSearch', 'none');
+        url.searchParams.set('order', 'relevance');
+        url.searchParams.set('maxResults', '10');
+        url.searchParams.set('q', searchQuery);
+        url.searchParams.set('key', apiKey);
+
+        const response = await fetch(url, { signal });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(getYouTubeApiErrorMessage(data, response.status));
+        }
+
+        officialItems.push(...(data.items || []).map((item) => normalizeOfficialItem(item, trimmed)).filter(Boolean));
       }
 
-      const results = sortAndDedupe((data.items || []).map(normalizeOfficialItem).filter(Boolean));
+      const results = sortAndDedupe(officialItems);
       if (results.length > 0) return results;
     } catch (error) {
       if (error.name === 'AbortError') throw error;
@@ -203,14 +343,18 @@ export async function searchYouTubeKaraoke(query, { signal } = {}) {
   const errors = [];
   for (const endpoint of PIPED_SEARCH_ENDPOINTS) {
     try {
-      const url = new URL(endpoint);
-      url.searchParams.set('q', searchQuery);
-      url.searchParams.set('filter', 'videos');
-      const response = await fetch(url, { signal });
-      if (!response.ok) throw new Error(`Search failed at ${endpoint}`);
-      const data = await response.json();
-      const items = Array.isArray(data) ? data : data.items || [];
-      const results = sortAndDedupe(items.map(normalizePipedItem).filter(Boolean));
+      const items = [];
+      for (const searchQuery of searchQueries.slice(0, 3)) {
+        const url = new URL(endpoint);
+        url.searchParams.set('q', searchQuery);
+        url.searchParams.set('filter', 'videos');
+        const response = await fetch(url, { signal });
+        if (!response.ok) throw new Error(`Search failed at ${endpoint}`);
+        const data = await response.json();
+        const endpointItems = Array.isArray(data) ? data : data.items || [];
+        items.push(...endpointItems.map((item) => normalizePipedItem(item, trimmed)).filter(Boolean));
+      }
+      const results = sortAndDedupe(items);
       if (results.length > 0) return results.slice(0, 12);
     } catch (error) {
       if (error.name === 'AbortError') throw error;
@@ -243,19 +387,121 @@ export async function resolveYouTubeSong(song, { signal } = {}) {
     search_query: query,
     provider: 'youtube',
     external_url: best.external_url,
+    classification: best.classification,
+    classification_reason: best.classification_reason,
     lyrics_preview: song.lyrics_preview || best.lyrics_preview,
   };
 }
 
 function sortAndDedupe(results) {
   const seen = new Set();
+  const seenTitles = new Set();
   return results
     .filter((result) => {
       if (!result.video_id || seen.has(result.video_id)) return false;
       seen.add(result.video_id);
+      if (!isAcceptableKaraokeResult(result)) return false;
+      const titleKey = normalizeComparable(`${result.title} ${result.artist}`);
+      if (titleKey && seenTitles.has(titleKey)) return false;
+      seenTitles.add(titleKey);
       return true;
     })
     .sort((a, b) => (b.score || 0) - (a.score || 0));
+}
+
+function isAcceptableKaraokeResult(result) {
+  if (!result) return false;
+  if (result.score >= MIN_ACCEPTABLE_SCORE && result.classification?.startsWith('Karaoke')) return true;
+  if (result.score >= 72 && result.classification === YOUTUBE_CLASSIFICATIONS.INSTRUMENTAL) return true;
+  return false;
+}
+
+function classificationScore(classification) {
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_NO_VOCALS) return 80;
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_GUIDE_VOCALS) return 68;
+  if (classification === YOUTUBE_CLASSIFICATIONS.INSTRUMENTAL) return 8;
+  if (classification === YOUTUBE_CLASSIFICATIONS.LYRIC_VIDEO) return -38;
+  return -28;
+}
+
+function relevanceScore(text, sourceQuery) {
+  const subject = stripSearchModifiers(sourceQuery);
+  const tokens = normalizeComparable(subject)
+    .split(' ')
+    .filter((token) => token.length > 2)
+    .slice(0, 8);
+
+  if (!tokens.length) return 0;
+
+  const hits = tokens.filter((token) => text.includes(token)).length;
+  const misses = tokens.length - hits;
+  return hits * 8 - misses * 4;
+}
+
+function resultText(result = {}) {
+  return normalizeComparable([
+    result.title,
+    result.description,
+    result.channel,
+    result.artist,
+  ].filter(Boolean).join(' '));
+}
+
+function matchesAny(text, patterns) {
+  return patterns.some((pattern) => pattern.test(text));
+}
+
+function stripSearchModifiers(query = '') {
+  return String(query || '')
+    .replace(SEARCH_MODIFIER_PATTERN, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function normalizeComparable(value = '') {
+  return String(value)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/&amp;/g, 'and')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function uniqueStrings(values) {
+  const seen = new Set();
+  return values
+    .map((value) => String(value || '').replace(/\s+/g, ' ').trim())
+    .filter((value) => {
+      const key = value.toLowerCase();
+      if (!value || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+function getResultPreview(classification) {
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_GUIDE_VOCALS) {
+    return 'Karaoke result with guide vocals or guide melody. On-screen lyrics may be available in the video.';
+  }
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_NO_VOCALS) {
+    return 'Karaoke result prioritized for no lead vocals, backing music, and on-screen lyrics.';
+  }
+  if (classification === YOUTUBE_CLASSIFICATIONS.INSTRUMENTAL) {
+    return 'Instrumental result. It may not include synchronized lyrics or guide melody.';
+  }
+  if (classification === YOUTUBE_CLASSIFICATIONS.LYRIC_VIDEO) {
+    return 'Lyric video result. It may include original vocals instead of karaoke audio.';
+  }
+  return 'YouTube result. Karaoke quality depends on the selected video.';
+}
+
+function getClassificationReason(classification) {
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_GUIDE_VOCALS) return 'Karaoke metadata includes guide-vocal or guide-melody wording.';
+  if (classification === YOUTUBE_CLASSIFICATIONS.KARAOKE_NO_VOCALS) return 'Karaoke metadata indicates a sing-along, minus-one, videoke, or no-vocal version.';
+  if (classification === YOUTUBE_CLASSIFICATIONS.INSTRUMENTAL) return 'Metadata appears instrumental without strong karaoke lyric signals.';
+  if (classification === YOUTUBE_CLASSIFICATIONS.LYRIC_VIDEO) return 'Metadata appears to be a lyric video rather than karaoke playback.';
+  return 'Metadata appears closer to an original song than a karaoke version.';
 }
 
 function decodeHtml(value) {

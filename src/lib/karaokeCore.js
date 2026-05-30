@@ -14,7 +14,7 @@ const emptyCurrent = {
   current_dedication: '',
 };
 
-const KARAOKE_SEARCH_KEYWORDS = ['karaoke', 'instrumental', 'lyrics', 'no vocals'];
+const KARAOKE_SEARCH_KEYWORDS = ['karaoke', 'karaoke version', 'lyrics', 'sing along', 'minus one', 'no vocals'];
 
 export const DEFAULT_PLAYER_STATE = {
   room_id: 'main',
@@ -130,6 +130,10 @@ export function normalizeState(state = DEFAULT_STATE) {
 }
 
 export function normalizePlayerState(player = {}) {
+  const currentSearchQuery = player.current_search_query
+    ? buildKaraokeSearchQuery(player.current_search_query)
+    : buildKaraokeSearchQuery(player.current_song_title || '', player.current_song_artist || '');
+
   return {
     ...DEFAULT_PLAYER_STATE,
     ...player,
@@ -139,6 +143,7 @@ export function normalizePlayerState(player = {}) {
     command_payload: player.command_payload || {},
     command_timestamp: Number(player.command_timestamp) || 0,
     started_at: Number(player.started_at) || 0,
+    current_search_query: currentSearchQuery,
   };
 }
 
