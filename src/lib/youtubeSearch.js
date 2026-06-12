@@ -94,7 +94,10 @@ const PIPED_SEARCH_ENDPOINTS = [
   'https://pipedapi.kavin.rocks/search',
   'https://pipedapi.adminforge.de/search',
 ];
+const YOUTUBE_API_KEY_PATTERN = /^VITE_YOUTUBE_API_KEY(?:_(\d+))?$/;
 const MIN_ACCEPTABLE_SCORE = 36;
+const exhaustedYouTubeApiKeys = new Set();
+let cachedYouTubeApiKeys = null;
 
 export function extractYouTubeVideoId(value = '') {
   const input = value.trim();
@@ -304,39 +307,54 @@ export async function searchYouTubeKaraoke(query, { signal } = {}) {
   const direct = directVideoResult(trimmed);
   if (direct) return [direct];
 
-  const apiKey = getYouTubeApiKey();
+  const apiKeys = getYouTubeApiKeys();
   const searchQueries = buildYouTubeSearchQueries(trimmed);
   let officialSearchError;
+  let officialSearchErrorReason = '';
 
-  if (apiKey) {
-    try {
-      const officialItems = [];
+  if (apiKeys.length) {
+    for (const apiKey of apiKeys) {
+      if (exhaustedYouTubeApiKeys.has(apiKey)) continue;
 
-      for (const searchQuery of searchQueries.slice(0, 4)) {
-        const url = new URL('https://www.googleapis.com/youtube/v3/search');
-        url.searchParams.set('part', 'snippet');
-        url.searchParams.set('type', 'video');
-        url.searchParams.set('videoEmbeddable', 'true');
-        url.searchParams.set('safeSearch', 'none');
-        url.searchParams.set('order', 'relevance');
-        url.searchParams.set('maxResults', '10');
-        url.searchParams.set('q', searchQuery);
-        url.searchParams.set('key', apiKey);
+      try {
+        const officialItems = [];
 
-        const response = await fetch(url, { signal });
-        const data = await response.json().catch(() => ({}));
-        if (!response.ok) {
-          throw new Error(getYouTubeApiErrorMessage(data, response.status));
+        for (const searchQuery of searchQueries.slice(0, 4)) {
+          const url = new URL('https://www.googleapis.com/youtube/v3/search');
+          url.searchParams.set('part', 'snippet');
+          url.searchParams.set('type', 'video');
+          url.searchParams.set('videoEmbeddable', 'true');
+          url.searchParams.set('safeSearch', 'none');
+          url.searchParams.set('order', 'relevance');
+          url.searchParams.set('maxResults', '10');
+          url.searchParams.set('q', searchQuery);
+          url.searchParams.set('key', apiKey);
+
+          const response = await fetch(url, { signal });
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok) {
+            const apiError = parseYouTubeApiError(data, response.status);
+            if (isYouTubeQuotaError(apiError.reason)) {
+              exhaustedYouTubeApiKeys.add(apiKey);
+              officialSearchError = officialSearchError || new Error(apiError.message);
+              officialSearchErrorReason = officialSearchErrorReason || apiError.reason;
+              break;
+            }
+
+            officialSearchError = new Error(apiError.message);
+            officialSearchErrorReason = apiError.reason || officialSearchErrorReason;
+            break;
+          }
+
+          officialItems.push(...(data.items || []).map((item) => normalizeOfficialItem(item, trimmed)).filter(Boolean));
         }
 
-        officialItems.push(...(data.items || []).map((item) => normalizeOfficialItem(item, trimmed)).filter(Boolean));
+        const results = sortAndDedupe(officialItems);
+        if (results.length > 0) return results;
+      } catch (error) {
+        if (error.name === 'AbortError') throw error;
+        officialSearchError = error;
       }
-
-      const results = sortAndDedupe(officialItems);
-      if (results.length > 0) return results;
-    } catch (error) {
-      if (error.name === 'AbortError') throw error;
-      officialSearchError = error;
     }
   }
 
@@ -362,8 +380,8 @@ export async function searchYouTubeKaraoke(query, { signal } = {}) {
     }
   }
 
-  if (officialSearchError) throw officialSearchError;
   if (errors.length) throw errors[0];
+  if (officialSearchError && !isYouTubeQuotaError(officialSearchErrorReason)) throw officialSearchError;
   return [];
 }
 
@@ -511,8 +529,21 @@ function decodeHtml(value) {
   return textarea.value;
 }
 
-function getYouTubeApiKey() {
-  return String(import.meta.env.VITE_YOUTUBE_API_KEY || '').trim();
+function getYouTubeApiKeys() {
+  if (cachedYouTubeApiKeys) return cachedYouTubeApiKeys;
+
+  const keys = Object.entries(import.meta.env)
+    .filter(([name, value]) => YOUTUBE_API_KEY_PATTERN.test(name) && String(value || '').trim())
+    .map(([name, value]) => {
+      const match = name.match(YOUTUBE_API_KEY_PATTERN);
+      const suffix = match?.[1] ? Number(match[1]) : 0;
+      return { suffix, value: String(value).trim() };
+    })
+    .sort((a, b) => a.suffix - b.suffix || a.value.localeCompare(b.value))
+    .map(({ value }) => value);
+
+  cachedYouTubeApiKeys = keys;
+  return keys;
 }
 
 function getYouTubeApiErrorMessage(data, status) {
@@ -530,4 +561,16 @@ function getYouTubeApiErrorMessage(data, status) {
   }
 
   return message || `YouTube search failed with status ${status}.`;
+}
+
+function parseYouTubeApiError(data, status) {
+  const reason = data?.error?.errors?.[0]?.reason;
+  return {
+    reason,
+    message: getYouTubeApiErrorMessage(data, status),
+  };
+}
+
+function isYouTubeQuotaError(reason) {
+  return reason === 'quotaExceeded' || reason === 'dailyLimitExceeded';
 }

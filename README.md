@@ -50,6 +50,8 @@ Set the official YouTube Data API key in `.env`:
 
 ```bash
 VITE_YOUTUBE_API_KEY=your_key
+VITE_YOUTUBE_API_KEY_1=backup_key
+VITE_YOUTUBE_API_KEY_2=another_backup_key
 ```
 
 Restart `npm run dev` after changing `.env`.
