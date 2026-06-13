@@ -1,0 +1,19 @@
+[Unit]
+Description=Vibeoke production server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/aura/vibeoke
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=3333
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=5
+User=aura
+Group=aura
+
+[Install]
+WantedBy=multi-user.target

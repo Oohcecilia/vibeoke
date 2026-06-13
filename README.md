@@ -11,8 +11,8 @@ npm run dev
 
 Open:
 
-- `http://localhost:3001/player` for the TV/player screen
-- `http://localhost:3001/controller` for the controller
+- `http://localhost:3333/player` for the TV/player screen
+- `http://localhost:3333/controller` for the controller
 
 The `dev` script starts one Node/Vite server with Socket.IO. Use the machine's LAN IP instead of `localhost` when opening the controller from another phone or tablet.
 
@@ -55,3 +55,9 @@ VITE_YOUTUBE_API_KEY_2=another_backup_key
 ```
 
 Restart `npm run dev` after changing `.env`.
+
+## Production On Pi
+
+If you're deploying to a Raspberry Pi host like `aura`, see:
+
+- [Pi deployment guide](./deploy/pi/README.md)

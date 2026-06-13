@@ -159,7 +159,7 @@ function getSocketUrl() {
   const { protocol, hostname, port, origin } = window.location;
   const vitePorts = new Set(['5173', '5174', '4300']);
   if (vitePorts.has(port) && import.meta.env.DEV) {
-    return `${protocol}//${hostname}:3001`;
+    return `${protocol}//${hostname}:3333`;
   }
 
   return origin;

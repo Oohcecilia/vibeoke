@@ -19,7 +19,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, '..');
 const dataDir = path.join(__dirname, 'data');
 const statePath = path.join(dataDir, 'vibeoke-state.json');
-const port = Number(process.env.PORT || 3001);
+const port = Number(process.env.PORT || 3333);
+const host = process.env.HOST || '0.0.0.0';
 const isProduction = process.env.NODE_ENV === 'production';
 
 let state = await loadState();
@@ -209,8 +210,8 @@ io.on('connection', (socket) => {
   }));
 });
 
-server.listen(port, '0.0.0.0', () => {
-  console.log(`Vibeoke realtime server running at http://localhost:${port}`);
+server.listen(port, host, () => {
+  console.log(`Vibeoke realtime server running at http://${host}:${port}`);
 });
 
 function ack(socket, handler) {
